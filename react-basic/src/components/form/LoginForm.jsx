@@ -32,7 +32,7 @@ const LoginForm = () => {
       <h1>Login Form</h1>
       <div>
         <div>
-          <label>username</label>
+          <label htmlFor="username">username</label>
           <input
             ref={usernameRef}
             value={username}
@@ -43,7 +43,7 @@ const LoginForm = () => {
         </div>
 
         <div>
-          <label>password</label>
+          <label htmlFor="password">password</label>
           <input
             ref={passwordRef}
             value={password}

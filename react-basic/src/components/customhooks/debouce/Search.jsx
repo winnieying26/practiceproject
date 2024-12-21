@@ -6,6 +6,7 @@ export default function Search() {
   const inputRef = useRef();
 
   useEffect(() => {
+    inputRef.current.focus()
     if(debounceVal){
         console.log(`Searching for: ${debounceVal}`)
     }
